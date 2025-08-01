@@ -2,7 +2,6 @@
 
 [![Release](https://img.shields.io/github/v/release/andrey-bh/avt)](https://github.com/andrey-bh/avt/releases)
 ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-success)
-[![License](https://img.shields.io/github/license/andrey-bh/avt)](LICENSE)
 
 **VideoTool (`avt`)** is a lightweight and flexible command-line tool for working with audio tracks in video files.
 
@@ -71,11 +70,3 @@ avt -f movie.mp4 -D "DEST" --toAC3
 ```
 avt -f "*.mkv" -a "Sound/{{name}}-en.mka" -b 192 -l "en" -t "Custom Sound Track" -D "DEST" --addAudio
 ```
-
-## Contributing
-
-Contributions are welcome! Feel free to submit issues or pull requests to improve this tool.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
