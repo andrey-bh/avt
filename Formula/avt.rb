@@ -1,24 +1,24 @@
 class Avt < Formula
   desc "Video Tools by ARAKL"
   homepage "https://github.com/andrey-bh/avt"
-  version "1.0.0"
+  version "1.0.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/andrey-bh/avt/releases/download/1.0.0/avt-darwin-arm64.tar.gz"
+      url "https://github.com/andrey-bh/avt/releases/download/1.0.1/avt-darwin-arm64.tar.gz"
       sha256 "..." # darwin_arm64
     else
-      url "https://github.com/andrey-bh/avt/releases/download/1.0.0/avt-darwin-amd64.tar.gz"
+      url "https://github.com/andrey-bh/avt/releases/download/1.0.1/avt-darwin-amd64.tar.gz"
       sha256 "..." # darwin_amd64
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/andrey-bh/avt/releases/download/1.0.0/avt-linux-arm64.tar.gz"
+      url "https://github.com/andrey-bh/avt/releases/download/1.0.1/avt-linux-arm64.tar.gz"
       sha256 "..." # linux_arm64
     else
-      url "https://github.com/andrey-bh/avt/releases/download/1.0.0/avt-linux-amd64.tar.gz"
+      url "https://github.com/andrey-bh/avt/releases/download/1.0.1/avt-linux-amd64.tar.gz"
       sha256 "..." # linux_amd64
     end
   end
