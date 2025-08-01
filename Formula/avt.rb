@@ -23,6 +23,8 @@ class Avt < Formula
     end
   end
 
+  depends_on "ffmpeg"
+
   def install
     if OS.mac?
       if Hardware::CPU.arm?
@@ -40,6 +42,6 @@ class Avt < Formula
   end
 
   test do
-    system "#{bin}/avt", "--help"
+    system "#{bin}/avt", "-v"
   end
 end
