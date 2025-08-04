@@ -28,7 +28,7 @@ avt-installer-<version>.exe
 ```
 3. After installation, open a new Command Prompt and run:
 ```
-avt --help
+avt --h
 ```
 
 ## Usage
