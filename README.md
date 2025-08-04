@@ -3,7 +3,6 @@
 [![Release](https://img.shields.io/github/v/release/andrey-bh/avt)](https://github.com/andrey-bh/avt/releases)
 ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-success)
 [![License](https://img.shields.io/badge/license-ARAKL%20AVT%20License-blue)](./LICENSE.md)
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=andre-bh.avt)
 
 **VideoTool (`avt`)** is a lightweight and flexible command-line tool for working with audio tracks in video files.
 
